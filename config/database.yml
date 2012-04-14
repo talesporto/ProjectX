@@ -1,7 +1,7 @@
 development:
   adapter: postgresql
   encoding: unicode
-  database: projectX
+  database: postgres
   pool: 5
   username: postgres
   password: postgres
@@ -13,7 +13,7 @@ development:
 test:
   adapter: postgresql
   encoding: unicode
-  database: projectX_test
+  database: postgres_test
   pool: 5
   username: postgres
   password: postgres
@@ -21,7 +21,7 @@ test:
 production:
   adapter: postgresql
   encoding: unicode
-  database: projectX
+  database: webmall
   pool: 5
   username: postgres
   password: postgres
